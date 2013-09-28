@@ -1,0 +1,31 @@
+
+Principal:
+
+	Anterior    -> on_anterior
+	Siguiente   -> on_siguiente
+	Información -> on_info
+	Dia         -> on_dia
+	
+	-Menu:
+	
+		Nuevo       -> on_menu_nuevo
+		Eliminar    -> on_menu_eliminar
+		Salir       -> on_menu_salir
+		Desconectar -> on_menu_logoff
+		Preferencias-> on_menu_preferencias
+		Acerca de   -> on_menu_about
+		
+Nuevo evento:
+
+	Cancelar  -> on_newevent_cancelar
+	Aceptar   -> on_newevent_aceptar
+	
+Login:
+
+	Cancelar  -> on_login_cancelar
+	Conectar  -> on_login_conectar
+	
+
+Acerca de:
+
+	Salir     -> on_about_exit
