@@ -422,6 +422,7 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <property name="use_stock">True</property>
+                        <signal name="clicked" handler="on_anterior" swapped="no"/>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -437,6 +438,7 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <property name="use_stock">True</property>
+                        <signal name="clicked" handler="on_siguiente" swapped="no"/>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -459,6 +461,8 @@
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
                     <property name="use_stock">True</property>
+                    <signal name="activate" handler="on_info" swapped="no"/>
+                    <signal name="clicked" handler="on_info" swapped="no"/>
                   </object>
                   <packing>
                     <property name="expand">False</property>
